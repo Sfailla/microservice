@@ -2,10 +2,14 @@
   "name": "micro",
   "version": "1.0.0",
   "description": "timestamp microservice for freecodecamp",
+  "private": true,
+  "engines": {
+    "node": "6.11.2",
+    "npm": "3.10.10"
+  },
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server"
+    "start": "node ./bin/www"
   },
   "author": "steve failla",
   "license": "ISC",
@@ -13,7 +17,6 @@
     "body-parser": "^1.17.2",
     "cors": "^2.8.4",
     "express": "^4.15.4",
-    "moment": "^2.18.1",
-    "nodemon": "^1.11.0"
+    "moment": "^2.18.1"
   }
 }
