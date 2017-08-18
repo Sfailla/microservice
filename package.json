@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "timestamp microservice for freecodecamp",
   "private": true,
+  "main": "server.js",
   "engines": {
     "node": "6.11.2",
     "npm": "3.10.10"
   },
   "main": "server.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node server"
   },
   "author": "steve failla",
   "license": "ISC",
